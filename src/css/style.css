@@ -31,6 +31,16 @@ Copyright © All rights Reserved
 /* GLOBAL
 ----------------------*/
 
+ul {
+    list-style-position: inside;
+}
+
+.centered-list {
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     position: relative;

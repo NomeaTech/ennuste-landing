@@ -92,6 +92,7 @@ $(function() {
     var $galleryDiv = $('.img-gallery');
     if ($galleryDiv.length && $.fn.owlCarousel) {
         $galleryDiv.owlCarousel({
+            // autoWidth: true,
             nav: false,
             center: true,
             loop: true,
@@ -103,7 +104,7 @@ $(function() {
                     items: 1
                 },
                 768: {
-                    items: 3
+                    items: 1
                 }
             }
         });
