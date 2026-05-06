@@ -1,2 +1,4 @@
 templates
 sync.sh
+.wrangler
+node_modules/

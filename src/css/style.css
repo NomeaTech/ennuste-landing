@@ -669,6 +669,11 @@ header {
     vertical-align: text-bottom;
 }
 
+#contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*  FOOTER
 ----------------------*/
@@ -705,9 +710,9 @@ footer {
     color: #e38cb7;
 }
 
-@media (max-width:991px) {
+/* @media (max-width:991px) {
     .social-icons {
         text-align: center;
         margin-top: 2rem;
     }
-}
+} */
