@@ -30,10 +30,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid" style="height: 40px" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <nav class="navbar navbar-dark navbar-expand-xl">
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height: 40px;" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbar">
-                            <ul class="navbar-nav ml-auto">
+                            <ul class="navbar-nav xs">
                                 <li class="nav-item"> <a class="nav-link active" href="#home" data-i18n="home"><span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link active" href="#ravintek" data-i18n="ravintek"><span class="sr-only"></span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#how-it-works" data-i18n="features"></a> </li>
@@ -46,7 +46,7 @@
                                     <div class="dropdown">
                                     <button class="btn btn-outline dropdown-toggle my-3 my-sm-0 ml-lg-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="language">
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="dropdown-menu form-inline" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="index.html" onclick="changeLanguage('en')">English</a>
                                         <a class="dropdown-item" href="index.html" onclick="changeLanguage('fi')">Suomi</a>
                                     </div>
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="section-title">
                 <h3><small data-i18n="intro 1"></small></h3>
-                <h1 class="display-1" data-i18n="intro 2"></h1>
+                <h1 class="" data-i18n="intro 2"></h1>
                 <h4 data-i18n="intro 3"></h4>
             </div>
 
@@ -90,8 +90,10 @@
                 <div>
                     <!-- <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div> -->
                     <h2 class="section-title" data-i18n="f 08"></h2>
-                    <div class="row pt-4">
-                        <div class="col-md-6 section-title">
+                    <span class="row">
+                        
+                        
+                        <div class="col-md-4 section-title">
                             <h3 data-i18n="f 09"></h3>
                             <ul class="centered-list">
                                 <li data-i18n="f 10" class="text-primary"></li>
@@ -100,7 +102,7 @@
                                 <li data-i18n="f 13" class="text-primary"></li>
                             </ul>
                         </div>
-                        <div class="col-md-6 section-title">
+                        <div class="col-md-4 section-title">
                             <h3 data-i18n="f 14"></h3>
 
                             <ul class="centered-list">
@@ -111,15 +113,18 @@
                                 <li data-i18n="f 19" class="text-primary"></li>
                             </ul>
                         </div>
-                    </div>
-                            
-                        <div class="section-title">
+                        <div class="col-md-4 section-title">
                             <h3 data-i18n="f 20"></h3>
-                            <p data-i18n="f 21"></p>
-                            <p data-i18n="f 22"></p>
-                            <p data-i18n="f 23"></p>
-                            <p data-i18n="f 24"></p>
+
+                            <ul class="centered-list">
+                                <li data-i18n="f 21" class="text-primary"></p>
+                                <li data-i18n="f 22" class="text-primary"></p>
+                                <li data-i18n="f 23" class="text-primary"></p>
+                                <li data-i18n="f 24" class="text-primary"></p>
+                            </ul>
                         </div>
+                    </span>
+                            
                     <!-- <a href="#" class="btn btn-primary">Read more</a> -->
                 </div>
             </div>
@@ -388,7 +393,7 @@
     </div> -->
     <!-- // end .section -->
 
-    <div class="section light-bg" id="pricing">
+    <div class="section" id="pricing">
         <div class="container">
             <div class="section-title">
                 <small data-i18n="p 01"></small>
@@ -462,7 +467,7 @@
     <!-- // end .section -->
 
 
-    <div class="section pt-0" id="faq">
+    <div class="section pt-0 light-bg" id="faq">
         <div class="container">
             <header></header>
             <div class="section-title">
@@ -514,7 +519,7 @@
 
 
 
-    <div class="section bg-gradient">
+    <div class="section bg-gradient" id="pink-bar">
         <div class="container">
             <div class="call-to-action">
 
@@ -523,9 +528,12 @@
                 <p class="tagline" data-i18n="c 02"></p>
                 <br>
                 <p style="color: white;" data-i18n="c 03"></p>
-                <p style="color: white;" class="tagline" data-i18n="c 04"></p>
-                <p style="color: white;" class="tagline" data-i18n="c 05"></p>
-                <p style="color: white;" data-i18n="c 06"></p>
+                <ul class="centered-list">
+                    <li style="color: white;" class="tagline" data-i18n="c 04"></li>
+                    <li style="color: white;" class="tagline" data-i18n="c 05"></li>
+                    <li style="color: white;" data-i18n="c 06"></li>
+                </ul>
+                <br>
                 <p class="tagline" data-i18n="c 07"></p>
                 <div class="my-4">
 
@@ -543,24 +551,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left">
-                    <p class="mb-2" data-i18n="location"> <span class="ti-location-pin mr-2"></span></p>
+                    <!-- <p class="mb-2" data-i18n="location"> <span class="ti-location-pin mr-2"></span></p> -->
                     <div class=" d-block d-sm-inline-block">
-                        <p class="mb-2">
+                        <p class="mb-2" style="margin-bottom: 0 !important">
                             <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:support@mobileapp.com" data-i18n="c 08"></a>
                         </p>
                     </div>
                     <div class="d-block d-sm-inline-block">
                         <p class="mb-0">
-                            <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a>
+                            <!-- <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a> -->
                         </p>
                     </div>
 
                 </div>
                 <div class="col-lg-6">
                     <div class="social-icons">
-                        <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter-alt"></span></a>
-                        <a href="#"><span class="ti-instagram"></span></a>
+                        <a href="http://linkedin.com/company/ravintek"><span class="ti-linkedin"></span></a>
                     </div>
                 </div>
             </div>
@@ -569,7 +575,7 @@
 
     </div>
     <!-- // end .section -->
-    <footer class="my-5 text-center">
+    <footer class="text-center">
         <!-- Copyright removal is not prohibited! -->
         <p class="mb-2" data-i18n="footer"><small></small></p>
 
