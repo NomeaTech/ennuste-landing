@@ -31,6 +31,10 @@ Copyright © All rights Reserved
 /* GLOBAL
 ----------------------*/
 
+.container {
+    padding: 50px 0;
+}
+
 ul {
     list-style-position: inside;
 }
@@ -169,7 +173,7 @@ p.lead {
 }
 
 .section {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .section-title {
@@ -182,9 +186,9 @@ p.lead {
     color: #998a9b;
 }
 
-/* #pink-bar {
-    padding: 10px 0 !important;
-} */
+#pink-bar {
+    padding: 0px 0 !important;
+}
 
 @media (max-width:767px) {
     h1 {
@@ -203,6 +207,10 @@ p.lead {
     margin-top: 8px !important;
     margin-bottom: 8px !important;
 } */
+
+#nav-container {
+    padding: 5px 0;
+}
 
 .dropdown .show {
     display: flex;
@@ -580,7 +588,7 @@ header {
 }
 
 #pricing {
-    padding: 40px 0 !important;
+    padding: 0px 0 !important;
 }
 
 .card.pricing {
@@ -635,7 +643,7 @@ header {
 .call-to-action {
     text-align: center;
     color: #FFF;
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 
 .call-to-action p {
@@ -708,6 +716,10 @@ footer {
 .social-icons a:hover {
     text-decoration: none;
     color: #e38cb7;
+}
+
+#spacer {
+    width: 100px;
 }
 
 /* @media (max-width:991px) {
